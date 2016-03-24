@@ -1,7 +1,7 @@
 
 # SwiftLeftpad
 
-A lot of people have interpreted the recent npm [kerfuffle aruond kik, and left-pad](http://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm) as saying everyone should have written their own leftpad function, instead of relying on a 3rd party dependency. It is only 11 lines of code (in js). I have a different view. One of the things we teach beginners is Do not Repeat Yourself. We tell them if they write the code once, and call it from wherever it's needed, we have only one place where we need to fix our bugs. No big of code is simple enough to be gauranteed bug free, and centralizing functions, like leftpad, means we only have to debug them once.
+A lot of people have interpreted the recent npm [kerfuffle aruond kik, and left-pad](http://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm) as saying everyone should have written their own leftpad function, instead of relying on a 3rd party dependency. It is only 11 lines of code (in js). I have a different view. One of the things we teach beginners is Do not Repeat Yourself. We tell them if they write the code once, and call it from wherever it's needed, we have only one place where we need to fix our bugs. No bit of code is small enough or simple enough to be guaranteed bug free, and centralizing functions, like leftpad, means we only have to debug them once.
 
 The reality is, in the absence of a left-pad module, most people will go to Stack Overflow, search "left pad string swift" and copy-paste the first high-voted answer they find. Now, SO is a good tool, and if I find a bug in the implementation there I can fix it, but that change doesn't propagate out to everybody who's copied it into their "utils" library.
 
