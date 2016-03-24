@@ -7,6 +7,8 @@ The reality is, in the absence of a left-pad module, most people will go to Stac
 
 With all that in mind, I created a Swift version of left-pad, which I hope you'll consider using if you have this problem. It's currently only available using Swift Package Manager, but pull requests for CocoaPods and Carthage will be considered. This is also a *direct* port of the npm version of left-pad, and has some of the same bugs and inefficiencies as the source. Pull requests welcome, let's fix it once and never again.
 
+And yes, I know about `stringByPaddingToLength(newLength: Int, withString padString: String, startingAtIndex padIndex: Int)`.
+
 ## Installation
 
 ### Swift Package Manager
