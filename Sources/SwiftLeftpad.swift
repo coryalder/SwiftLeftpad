@@ -8,7 +8,7 @@ extension String {
         
         var i = 0
         while (i < extraLength) {
-            outString.insert(character, at: outString.startIndex)
+            outString.insert(character, atIndex: outString.startIndex)
             i += 1
         }
         
